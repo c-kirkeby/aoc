@@ -26,7 +26,6 @@ func main() {
 		input = scanner.Text()
 		d.rotate(input)
 		line = line + 1
-		log.Printf("Finished reading line %d", line)
 	}
 
 	if err := scanner.Err(); err != nil {
